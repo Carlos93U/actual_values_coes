@@ -24,7 +24,6 @@ class DataCoesSpider(scrapy.Spider):
         event_max_out = dict()
         for i,event in enumerate(rel_24h_events):
             date = response.xpath(f'//div[@class="col-md-6 col-sm-6-2"][1]//div[@class="coes-preview-list"]/div[{i+1}]/p/text()').get()
-            #date = [datetime.datetime.now().year,date]
             description = response.xpath(f'//div[@class="col-md-6 col-sm-6-2"][1]//div[@class="coes-preview-list"]/div[{i+1}]/div/p/text()').get()
             events_out[event] = {'description':description.replace("\r\n",""),'date':date}       
                 
