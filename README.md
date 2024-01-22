@@ -47,6 +47,7 @@ cd datacoes
 ```
 scrapy crawl scrap_events
 ```
+[![code.gif](https://i.postimg.cc/8CQNxr0t/code.gif)](https://postimg.cc/Yv35WjkW)
 ## 5. Extensions in use
 
     JC : JSON Crack
