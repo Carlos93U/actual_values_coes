@@ -11,7 +11,7 @@ class DataCoesSpider(scrapy.Spider):
         'FEED_FORMAT': 'json',
         'CONCURRENT_REQUESTS': 5,
         'MEMUSAGE_LIMIT_MB': 1024,
-        'MEMUSAGE_NOTIFY_MAIL': ["juan.huillcas.a@uni.pe"],
+        'MEMUSAGE_NOTIFY_MAIL': ["user@mail.com"],
         'ROBOTSTXT_OBEY': True,
         'USER_AGENT': 'user_me',
         'FEED_EXPORT_ENCODING': "utf-8"
