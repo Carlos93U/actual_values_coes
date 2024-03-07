@@ -57,15 +57,3 @@ scrapy crawl scrap_events
 * [Python](https://www.python.org/doc/) - Python's documentation, tutorials, and guides are constantly evolving.
 * [Scrapy](https://docs.scrapy.org/en/latest/) - Documentation about Scrapy
 * [Class and Objects - OOP](https://docs.python.org/es/3/tutorial/classes.html) - Object oriented programming
-
-
-## 7. Updates
-
-**01/22/2024**</br>
-First version
-
-## 8. Author
-
-* **Juan Huillcas A** 
-* **Email_1 : huillcas.juan3@gmail.com**
-* **Email_2 : juan.huillcas.a@uni.pe**
